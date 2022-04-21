@@ -2,3 +2,91 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    background: #1F2937;
+    color: white;
+    padding: 16px 248px 50px
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.headerlinks ul{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+display: flex;
+gap: 24px;
+font-size: 18px;
+color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.headerbottom{
+    display:flex;
+}
+
+.hbtext{
+    flex-basis: 50%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+.placeholderimg {
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+}
+
+.bigtext {
+    font-size: 48px; 
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px 36px;
+}
+
+.information {
+    text-align: center;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 900; 
+    color: #1F2937;
+    margin: 50px;
+}
